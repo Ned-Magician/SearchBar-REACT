@@ -19,10 +19,8 @@ class App extends React.Component {
         <SearchBar onSubmit={this.onSearchSubmit} />
         Found: {this.state.images.length} Images <hr />
         <ImageList images={this.state.images} />
-          console.log("Unsplash key:", process.env.REACT_APP_UNSPLASH_KEY);
-
-      </div>
-    );
+          </div>
+    );  console.log("Unsplash key:", process.env.REACT_APP_UNSPLASH_KEY);
   }
 }
 export default App;
