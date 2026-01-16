@@ -20,7 +20,7 @@ class App extends React.Component {
         Found: {this.state.images.length} Images <hr />
         <ImageList images={this.state.images} />
           </div>
-    );  console.log("Unsplash key:", process.env.REACT_APP_UNSPLASH_KEY);
+    );  
   }
 }
 export default App;
