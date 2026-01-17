@@ -7,3 +7,4 @@ export default axios.create({
     Authorization: `Client-ID ${Api}`,
   },
 });
+console.log("KEY:", process.env.REACT_APP_UNSPLASH_KEY);
